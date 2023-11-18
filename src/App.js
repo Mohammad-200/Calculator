@@ -13,6 +13,7 @@ export const ACTIONS = {
 };
 
 /* Second Version 2 */
+/* Second Version 3 */
 function reducer(state, {type, payload}) {
     switch(type) {
       case ACTIONS.ADD_DIGIT:
