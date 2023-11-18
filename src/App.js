@@ -12,7 +12,7 @@ export const ACTIONS = {
   EVALUATE: "evaluate",
 };
 
-
+/* Second Version 2 */
 function reducer(state, {type, payload}) {
     switch(type) {
       case ACTIONS.ADD_DIGIT:
