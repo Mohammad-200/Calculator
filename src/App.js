@@ -131,7 +131,7 @@ function formatOperand(operand) {
   if (decimal == null) return INTEGER_FORMATTER.format(integer)
   return `${INTEGER_FORMATTER.format(integer)}.${decimal}`
 }
- 
+//  Use useReducer to do the math
 export default function App() { 
     const [{currentOperand, previousOperand, operation}, dispatch] = React.useReducer(reducer, {})
 
